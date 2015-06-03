@@ -6,12 +6,18 @@
  * Licensed under the MIT license.
  */
 
+ /* global doobar_classes */
+ /* global console */
+
 (function($) {
+
+  var category = doobar_classes;
 
   // Collection method.
   $.fn.doobar = function() {
     return this.each(function(i) {
       // Do something awesome to each selected element.
+      console.log(category);
       $(this).html('awesome' + i);
     });
   };
