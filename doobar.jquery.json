@@ -1,0 +1,26 @@
+{
+  "name": "doobar",
+  "title": "Doobar",
+  "description": "Dummy jQuery plugin project",
+  "version": "0.1.0",
+  "homepage": "https://github.com/minus/doobar",
+  "author": {
+    "name": "Mario Minutolo",
+    "email": "_"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/minus/doobar.git"
+  },
+  "bugs": "https://github.com/minus/doobar/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/minus/doobar/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.11.3"
+  },
+  "keywords": []
+}
